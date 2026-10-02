@@ -1,0 +1,12 @@
+# Backups, logs and reports contain the permission structure of your Active Directory.
+# Never commit them.
+Backups/
+*.csv
+*.html
+TRANSCRIPT_*.txt
+BEFORE_RESTORE_*.txt
+Reports/
+Logs/
+
+# Exception: the sample report (fictitious data) used by the README
+!docs/sample-report.html
