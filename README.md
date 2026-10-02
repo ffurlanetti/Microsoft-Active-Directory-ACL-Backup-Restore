@@ -38,7 +38,7 @@ No RSAT, no `ActiveDirectory` module, no `AD:` drive. It uses only `System.Direc
 > **The change log and the HTML report depend on this workflow.** They compare two backups. A change made after the latest backup is not in any backup, so it cannot be shown.
 
 ```
- 1. Backup  BEFORE changing ACLs   →  saves the PREVIOUS state
+ 1. Backup  BEFORE changing DACLs   →  saves the PREVIOUS state
  2. Make the DACL changes in AD
  3. Backup  AFTER the changes       →  saves the CURRENT state
  4. Change log / HTML report        →  compares (1) with (3)
