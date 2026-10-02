@@ -39,7 +39,7 @@ No RSAT, no `ActiveDirectory` module, no `AD:` drive. It uses only `System.Direc
 
 ```
  1. Backup  BEFORE changing ACLs   →  saves the PREVIOUS state
- 2. Make the ACL changes in AD
+ 2. Make the DACL changes in AD
  3. Backup  AFTER the changes       →  saves the CURRENT state
  4. Change log / HTML report        →  compares (1) with (3)
 ```
