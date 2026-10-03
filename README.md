@@ -9,7 +9,7 @@ ACL-ADDS saves the security descriptor of the domain root and of every Organizat
 No RSAT, no `ActiveDirectory` module, no `AD:` drive. It uses only `System.DirectoryServices`, which is built into Windows.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/image/changelog-report-dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/changelog-report-dark.png">
   <img alt="ACL-ADDS change log HTML report: summary cards, filter, and per-OU tables of added and removed permissions with inherited changes traced to their parent OU" src="docs/images/changelog-report.png">
 </picture>
 
